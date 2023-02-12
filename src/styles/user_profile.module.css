@@ -1,0 +1,26 @@
+#main_wrap{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#main{
+    width: 80%;
+    max-width: 50rem;
+    /* border: 2px solid yellow; */
+}
+
+
+
+
+
+#toggled_option_data{
+    margin-block: 1rem;
+}
+
+@media screen and (max-width: 638px){
+    #main{
+        width: 95%;
+        min-width: 20rem;
+    }
+}

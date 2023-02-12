@@ -1,0 +1,36 @@
+#main_wrap{
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    width: 80%;
+    max-width: 65rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 2rem;
+}
+
+#toggle_comps_wrap{
+    padding: 1rem;
+}
+
+#toggled_comp{
+    padding: 1rem;
+}
+
+.save_or_cancel{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* #toggled_comp{
+    border: 2px solid black;
+} */
+
+@media screen and (max-width: 426px){
+    #main{
+        min-width: 20rem;
+    }
+}
